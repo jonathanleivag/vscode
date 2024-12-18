@@ -8,15 +8,31 @@
   --vscode-editorLink-activeForeground: #ffffff !important;
   --vscode-pickerGroup-foreground: #ffffff !important;
   --vscode-button-background: #ffffff !important;
+  --vscode-focusBorder: #ffffff !important;
 }
 
 .monaco-workbench  {
   --vscode-icon-foreground: #ffffff !important;
+  --vscode-editorLink-activeForeground: #ffffff !important;
+  --vscode-progressBar-background: #ffffff !important;
+  --vscode-sash-hoverBorder: #ffffff !important;
+  --vscode-editorLink-activeForeground: #ffffff !important;
+  --vscode-editorLink-activeForeground: #ffffff !important;
+  --vscode-pickerGroup-foreground: #ffffff !important;
+  --vscode-button-background: #ffffff !important;
+  --vscode-focusBorder: transparent !important;
+  --vscode-button-hoverBackground: #ffffff !important;
+  --color-background--lighten-15: #ffffff !important;
+}
+
+.notification-toast.notification-fade-in-done {
+  border: none !important;
 }
 
 .title-label  {
   color: #008c7d !important;
 }
+
 
 .mtk4 {
   font-family: 'Monaspace Radon', monospace !important;
