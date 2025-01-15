@@ -1,16 +1,3 @@
-:root {
-  --vscode-icon-foreground: #ffffff !important;
-  --vscode-focusBorder: #ffffff !important;
-  --vscode-editorLink-activeForeground: #ffffff !important;
-  --vscode-progressBar-background: #ffffff !important;
-  --vscode-sash-hoverBorder: #ffffff !important;
-  --vscode-editorLink-activeForeground: #ffffff !important;
-  --vscode-editorLink-activeForeground: #ffffff !important;
-  --vscode-pickerGroup-foreground: #ffffff !important;
-  --vscode-button-background: #ffffff !important;
-  --vscode-focusBorder: #ffffff !important;
-}
-
 .monaco-workbench  {
   --vscode-icon-foreground: #ffffff !important;
   --vscode-editorLink-activeForeground: #ffffff !important;
@@ -23,6 +10,10 @@
   --vscode-focusBorder: transparent !important;
   --vscode-button-hoverBackground: #ffffff !important;
   --color-background--lighten-15: #ffffff !important;
+}
+
+.action-item.monaco-dropdown-with-primary {
+  display: none !important;
 }
 
 .notification-toast.notification-fade-in-done {
@@ -167,11 +158,16 @@
 
 .part.titlebar {
   background-color: rgb(48 52 70) !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
   border: none !important;
   background: transparent !important;
+
 }
 
 .titlebar-left {
