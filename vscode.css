@@ -170,6 +170,10 @@
 
 }
 
+.window-title {
+  margin-left: 3.75rem !important;
+}
+
 .titlebar-left {
   justify-content: flex-start !important;
   flex-grow: 0 !important;
